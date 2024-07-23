@@ -1,0 +1,11 @@
+
+POST http://localhost:3000/notifications
+
+{
+  "recipientId": "123213",
+  "category": "social",
+  "content": "conteudo 3"
+}
+
+###
+GET http://localhost:3000/notifications
